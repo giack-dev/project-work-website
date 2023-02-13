@@ -18,13 +18,13 @@ class NavBar extends HTMLElement {
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="../autori.html">Authors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="../bibliografia.html">Bibliography</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link" href="#">IT</a>
             </li>
           </ul>
         </div>
@@ -35,3 +35,14 @@ class NavBar extends HTMLElement {
 }
 
 customElements.define("nav-bar", NavBar);
+
+//Translate Section
+
+const data = {
+  italian: {
+    title: "Archivio Terremoti",
+  },
+  english: {
+    title: "Earthquake Archive",
+  },
+};
