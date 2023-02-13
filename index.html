@@ -13,47 +13,26 @@
     <title>Menù</title>
   </head>
   <body>
-    <nav-bar></nav-bar>
-    <div id="carouselIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
+    <!-- Inizio NavBar -->
+    <div class="nav">
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header">
+        <div class="nav-title">
+          Archivio Terremoti
+        </div>
       </div>
-      <div
-        class="carousel-inner"
-        style="margin: 5% auto; width: 50%; height: 50%"
-      >
-        <div class="carousel-item active">
-          <img
-            src="https://www.today.it/~media/horizontal-hi/8441288536276/terremoto-turchia-siria-ansa-epa.jpg"
-            class="d-block w-100"
-            alt="Terremoti in Turchia"
-          />
-        </div>
-        <div class="carousel-item">
-          <img src="https://www.today.it/~media/horizontal-hi/8441288536276/terremoto-turchia-siria-ansa-epa.jpg" class="d-block w-100" alt="CHANGE THE IMAGE" />
-        </div>
-        <div class="carousel-item">
-          <img src="https://www.today.it/~media/horizontal-hi/8441288536276/terremoto-turchia-siria-ansa-epa.jpg" class="d-block w-100" alt="CHANGE THE IMAGE" />
-        </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      
+      <div class="nav-links">
+        <a href="./index.html" target="_blank">Home</a>
+        <a href="./autori.html" target="_blank">Autori</a>
+        <a href="./bibliografia.html" target="_blank">Bibliografia</a>
       </div>
     </div>
 
