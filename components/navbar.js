@@ -5,9 +5,14 @@ class NavBar extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Nome Notizia</a>
+        <a class="navbar-brand" href="#">
+          <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          Bootstrap
+        </a>
+      </div>
+      <div class="container-fluid">
         <button
           class="navbar-toggler"
           type="button"
