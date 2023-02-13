@@ -15,7 +15,7 @@ class NavBar extends HTMLElement {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../autori.html">Authors</a>
@@ -37,6 +37,18 @@ class NavBar extends HTMLElement {
 customElements.define("nav-bar", NavBar);
 
 //Translate Section
+
+const li = document.querySelectorAll("li");
+const ulSelection = document.querySelector("ul");
+
+li.forEach((el) => {
+  el.addEventListener("click", () => {
+    ulSelection
+      .querySelector(".nav-link active")
+      .classList.remove("nav-link active");
+    el.classList.add("nav-link active");
+  });
+});
 
 const data = {
   italian: {
