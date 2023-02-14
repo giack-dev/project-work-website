@@ -20,3 +20,18 @@ body {
   width: 50%;
   height: 70%;
 }
+
+button {
+  background-color: transparent;
+  color: #000;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  font-size: 50px;
+}
+
+.prev {
+  position: absolute;
+  top: 500px;
+  left: 28%;
+}
