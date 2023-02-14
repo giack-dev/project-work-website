@@ -1,5 +1,40 @@
 .face {
-  border-radius: 50%; 
-  width: 150px; 
+  border-radius: 50%;
+  width: 150px;
   height: 150px;
+}
+
+.title1 {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title2 {
+  position: relative;
+  top: 20px;
+}
+
+.p-text {
+  max-width: 50%;
+  max-height: 10px;
+  display: inline-block;
+}
+
+p {
+  position: relative;
+  top: -60px;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  position: relative;
+  top: 50px;
+}
+
+.title {
+  position: relative;
+  top: 1px;
 }
