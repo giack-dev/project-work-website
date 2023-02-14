@@ -1,4 +1,4 @@
-const img = document.getElementById("img");
+let image = document.getElementById("im");
 let i = 0;
 
 function Avanti() {
@@ -6,7 +6,7 @@ function Avanti() {
   if (i > 3) {
     i = 1;
   }
-  img.src = "./assets/Terremoti_" + i + ".jpg";
+  image.src = "./assets/Terremoti_" + i + ".jpg";
 }
 
 function Indietro() {
@@ -15,5 +15,5 @@ function Indietro() {
   if (i < 1) {
     i = 3;
   }
-  img.src = "./assets/Terremoti_" + i + ".jpg";
+  image.src = "./assets/Terremoti_" + i + ".jpg";
 }
