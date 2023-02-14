@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 body {
   font-family: Verdana, sans-serif;
   margin: 0;
@@ -8,6 +11,32 @@ body {
 .mySlides {
   display: none;
 }
+
+.nav-links {
+  position: relative;
+  top: 11.5px;
+}
+
+.nav {
+  background-color: #cccaca;
+  height: 70px;
+}
+
+.logo {
+  position: relative;
+  top: -17px;
+}
+
+.nav-title {
+  position: relative;
+  top: -10px;
+}
+
+.title {
+  color: #1d1d1f;
+  font-weight: 600;
+}
+
 img {
   vertical-align: middle;
 }

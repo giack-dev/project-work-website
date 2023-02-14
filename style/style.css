@@ -1,0 +1,30 @@
+.nav-links {
+  position: relative;
+  top: 11.5px;
+}
+
+.nav {
+  background-color: #cccaca;
+  height: 70px;
+}
+
+.nav-title {
+  position: relative;
+  top: -10px;
+}
+
+.logo {
+  position: relative;
+  top: -17px;
+}
+
+.title {
+  color: #1d1d1f;
+  font-weight: 600;
+}
+
+.nav-btn label {
+  position: relative;
+  top: 9px;
+  left: -10px;
+}
