@@ -23,6 +23,7 @@ body {
 
 button {
   background-color: transparent;
+  width: 100px;
   color: #000;
   font-weight: bold;
   outline: none;
@@ -30,6 +31,12 @@ button {
   font-size: 50px;
   color: white;
   cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+button:hover {
+  border-radius: 50px;
+  box-shadow: inset 1px 8px 17px 14px rgba(0, 0, 0, 0.6);
 }
 
 .prev {
@@ -41,5 +48,12 @@ button {
 .next {
   position: absolute;
   top: 55%;
-  left: 70%;
+  left: 65%;
+}
+
+@media (max-width: 800px) {
+  .carousel img {
+    width: 70%;
+    height: 60%;
+  }
 }
