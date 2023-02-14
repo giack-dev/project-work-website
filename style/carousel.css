@@ -12,31 +12,6 @@ body {
   display: none;
 }
 
-.nav-links {
-  position: relative;
-  top: 11.5px;
-}
-
-.nav {
-  background-color: #cccaca;
-  height: 70px;
-}
-
-.logo {
-  position: relative;
-  top: -17px;
-}
-
-.nav-title {
-  position: relative;
-  top: -10px;
-}
-
-.title {
-  color: #1d1d1f;
-  font-weight: 600;
-}
-
 img {
   vertical-align: middle;
 }
