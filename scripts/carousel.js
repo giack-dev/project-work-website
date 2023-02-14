@@ -1,5 +1,5 @@
-let image = document.getElementById("im");
-let i = 0;
+var i = 0;
+var image = document.getElementById("im");
 
 function Avanti() {
   i++;

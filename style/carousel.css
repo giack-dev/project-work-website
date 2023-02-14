@@ -9,14 +9,14 @@ body {
   margin: 0;
 }
 
-.caraousel {
+.carousel {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.caraousel img {
+.carousel img {
   width: 50%;
   height: 70%;
 }
