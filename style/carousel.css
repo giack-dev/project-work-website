@@ -28,10 +28,18 @@ button {
   outline: none;
   border: none;
   font-size: 50px;
+  color: white;
+  cursor: pointer;
 }
 
 .prev {
   position: absolute;
-  top: 500px;
+  top: 55%;
   left: 28%;
+}
+
+.next {
+  position: absolute;
+  top: 55%;
+  left: 70%;
 }
