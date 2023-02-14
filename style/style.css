@@ -1,3 +1,7 @@
+ul, li {
+  list-style: inside;
+}
+
 .nav-links {
   position: relative;
   top: 11.5px;
