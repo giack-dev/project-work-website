@@ -16,7 +16,7 @@ const data = {
     ptext2: `L’Italia è organizzata bene con strutture per evitare che possano
     ripresentarsi disastri come quello dell'Aquila, che limitano i danni il
     possibile.`,
-    btn: "Back",
+    btn: "Indietro",
   },
   english: {
     title: "Earthquakes in Italy",
@@ -28,33 +28,6 @@ const data = {
   },
 };
 
-const data2 = {
-  italian: {
-    title: `Terremoti in Turchia`,
-    p1: `Turchia, a partire dal 07/02 ha subito diverse scosse sismiche che
-    oscillano tra i 4.1 e 7.8 di magnitudo, (maggiormente nella città di
-    Kahramanmaraş ovvero l’epicentro del terremoto) negli ultimi 20 anni lo
-    stato ha incontrato una lunga serie di terremoti più o meno catastrofici.
-    La Turchia negli anni ha riscontrato molti terremoti per via della sua
-    posizione geologica, il territorio si trova sopra 3 placche sismiche:`,
-    li1: `Placca nord-anatolica.`,
-    li2: `Placca arabica.`,
-    li3: `Placca nord-africana`,
-    p2: `I terremoti hanno causato un bilancio spaventoso, il numero delle vittime
-    ha raggiunto quasi i 40000 e l’OMS afferma che questo numero potrebbe
-    raddoppiare, però il numero di vittime è soltanto ipotetico perché le zone
-    controllate dai ribelli, sia in Turchia che in Siria, non “fanno uscire”
-    informazioni né sul bilancio delle vittime né sulle condizioni di vita che
-    devono sopportare le persone.`,
-    btn: `Back`,
-  },
-
-  english: {
-    title: `Earthquakes in Turkey`,
-    p1: `Starting from 07/02, Turkey has experienced several seismic tremors ranging from 4.1 to 7.8 magnitude, mostly in the city of Kahramanmaraş, which is the epicenter of the earthquake. Over the last 20 years, the country has encountered a long series of more or less catastrophic earthquakes. Due to its geological position, Turkey has experienced many earthquakes over the years. The territory is located above 3 seismic plates.`,
-  },
-};
-
 function Translate() {
   let btn = document.getElementById("lang");
   let h2 = document.getElementById("h2");
@@ -62,6 +35,7 @@ function Translate() {
   let li1 = document.getElementById("li1");
   let li2 = document.getElementById("li2");
   let p2 = document.getElementById("text2");
+  let btn2 = document.getElementById("back");
 
   if (btn.innerText == "IT") {
     btn.innerText = "EN";
@@ -70,12 +44,14 @@ function Translate() {
     li1.innerText = data.italian.li1;
     li2.innerText = data.italian.li2;
     p2.innerText = data.italian.ptext2;
+    btn2.innerText = data.italian.btn;
   } else {
     btn.innerText = "IT";
     p1.innerText = data.english.ptext;
     h2.innerText = data.english.title;
     li1.innerText = data.english.li1;
     li2.innerText = data.english.li2;
-    p2.innerText = data.english.ptext2;
+    p2.innerText = data.english.p2;
+    btn2.innerText = data.english.btn;
   }
 }
