@@ -9,12 +9,12 @@ body {
   background-color: #cdd0d4;
 }
 
-.wrapper {
+.links-inf {
   max-width: 600px;
   margin: 40px auto;
 }
 
-ol {
+ul {
   list-style: none;
   padding: 0;
 }

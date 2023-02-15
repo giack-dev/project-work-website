@@ -8,6 +8,11 @@ body {
   height: 150px;
 }
 
+.face:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
 .title1 {
   text-align: center;
   position: relative;
