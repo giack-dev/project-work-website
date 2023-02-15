@@ -56,4 +56,13 @@ button:hover {
     width: 70%;
     height: 60%;
   }
+  .prev {
+    position: absolute;
+    margin-left: -45px;
+  }
+
+  .next {
+    position: absolute;
+    margin-left: -20px;
+  }
 }

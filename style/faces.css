@@ -1,3 +1,7 @@
+body {
+  background-color: #cdd0d4;
+}
+
 .face {
   border-radius: 50%;
   width: 150px;
@@ -9,11 +13,13 @@
   position: relative;
   top: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: red;
 }
 
 .title2 {
   position: relative;
   top: 20px;
+  margin-left: 10px;
 }
 
 .p-text {
@@ -41,4 +47,8 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+ul {
+  margin-left: 10px;
 }
