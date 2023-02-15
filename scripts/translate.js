@@ -16,6 +16,7 @@ const data = {
     ptext2: `L’Italia è organizzata bene con strutture per evitare che possano
     ripresentarsi disastri come quello dell'Aquila, che limitano i danni il
     possibile.`,
+    btn: "Back",
   },
   english: {
     title: "Earthquakes in Italy",
@@ -23,6 +24,34 @@ const data = {
     li1: `The earthquake that struck Messina and Reggio Calabria in 1908 caused a 7.5 magnitude tremor, making it the second most powerful earthquake in Italian history, with a death toll of 100,000.`,
     li2: `The more recent earthquake in Abruzzo is a series of tremors that occurred between 2008 and 2012, which resulted in 309 deaths, over 1600 injuries, and damages of more than 10 billion euros.`,
     ptext2: `Italy is well-organized with structures to prevent disasters like the one in L'Aquila from happening again, which minimize the damages as much as possible.`,
+    btn: "Back",
+  },
+};
+
+const data2 = {
+  italian: {
+    title: `Terremoti in Turchia`,
+    p1: `Turchia, a partire dal 07/02 ha subito diverse scosse sismiche che
+    oscillano tra i 4.1 e 7.8 di magnitudo, (maggiormente nella città di
+    Kahramanmaraş ovvero l’epicentro del terremoto) negli ultimi 20 anni lo
+    stato ha incontrato una lunga serie di terremoti più o meno catastrofici.
+    La Turchia negli anni ha riscontrato molti terremoti per via della sua
+    posizione geologica, il territorio si trova sopra 3 placche sismiche:`,
+    li1: `Placca nord-anatolica.`,
+    li2: `Placca arabica.`,
+    li3: `Placca nord-africana`,
+    p2: `I terremoti hanno causato un bilancio spaventoso, il numero delle vittime
+    ha raggiunto quasi i 40000 e l’OMS afferma che questo numero potrebbe
+    raddoppiare, però il numero di vittime è soltanto ipotetico perché le zone
+    controllate dai ribelli, sia in Turchia che in Siria, non “fanno uscire”
+    informazioni né sul bilancio delle vittime né sulle condizioni di vita che
+    devono sopportare le persone.`,
+    btn: `Back`,
+  },
+
+  english: {
+    title: `Earthquakes in Turkey`,
+    p1: `Starting from 07/02, Turkey has experienced several seismic tremors ranging from 4.1 to 7.8 magnitude, mostly in the city of Kahramanmaraş, which is the epicenter of the earthquake. Over the last 20 years, the country has encountered a long series of more or less catastrophic earthquakes. Due to its geological position, Turkey has experienced many earthquakes over the years. The territory is located above 3 seismic plates.`,
   },
 };
 
