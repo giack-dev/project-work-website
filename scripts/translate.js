@@ -51,7 +51,7 @@ function Translate() {
     h2.innerText = data.english.title;
     li1.innerText = data.english.li1;
     li2.innerText = data.english.li2;
-    p2.innerText = data.english.p2;
+    p2.innerText = data.english.ptext2;
     btn2.innerText = data.english.btn;
   }
 }
