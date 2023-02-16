@@ -97,3 +97,11 @@ li:nth-child(even) {
   margin-right: -2rem;
   margin-left: 2rem;
 }
+
+.list-h2 {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}

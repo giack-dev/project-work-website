@@ -38,10 +38,6 @@ hr {
   margin-top: 10px;
 }
 
-img:hover {
-  transform: scale(1.2);
-}
-
-iframe:hover {
-  transform: scale(1.2);
+.nav {
+  position: fixed;
 }
