@@ -12,6 +12,7 @@ body {
   height: 50px;
   width: 100%;
   position: relative;
+  border-bottom: 2px solid black;
 }
 
 .nav > .nav-header {
