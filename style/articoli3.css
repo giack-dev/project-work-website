@@ -11,11 +11,6 @@ body {
   text-align: center;
 }
 
-.content img {
-  width: 60%;
-  height: 50%;
-}
-
 .content {
   margin-top: 50px;
   position: relative;
@@ -28,7 +23,11 @@ body {
   border-radius: 25px;
   text-align: center;
   overflow-y: scroll;
-  text-align: center;
+}
+
+.content img {
+  width: 60%;
+  height: 50%;
 }
 
 .content::-webkit-scrollbar {
@@ -46,7 +45,7 @@ body {
   cursor: pointer;
 }
 
-#h2 {
+.titolo {
   font-size: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-bottom: 15px;
@@ -56,19 +55,14 @@ body {
 
 .testo {
   height: 15%;
-  width: 95%;
-  margin-top: 15px;
+  width: 100%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
-.img1 {
-  margin-top: 10px;
-}
-
-#text2 {
+#text {
   position: absolute;
-  margin-top: 50%;
+  margin-top: 2%;
 }
 
 @media (max-width: 800px) {
@@ -77,11 +71,6 @@ body {
     margin-right: auto;
     width: 450px;
     height: 600px;
-  }
-
-  .testo {
-    width: 100%;
-    margin-top: 65px;
   }
 
   body {
@@ -104,6 +93,6 @@ body {
 
   #text2 {
     position: absolute;
-    margin-top: 73%;
+    margin-top: 150%;
   }
 }
